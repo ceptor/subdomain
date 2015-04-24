@@ -5,9 +5,10 @@
 	</head>
 	<body>
 		<div class="container">
-            <div class="lemon"></div>
+            <!--<div class="lemon"></div>-->
+            <img class="logo" src="img/edu.png">
 			<header>
-				<h1>Lorem ipsum dolor sit amet, <span>consectetur adipiscing elit. Etiam dolor</span></h1>
+				<h1>Лучшие в России курсы онлайн образования. <span style="color: #fff">Бесплатно.</span></h1>
 
                 <ul class="authorize">
                     <li><a href="#">Регистрация</a></li>
@@ -47,7 +48,8 @@
 			</div>
 
             <div class="footer">
-                <h1>Lorem ipsum dolor sit amet, <span>consectetur adipiscing elit. Etiam dolor</span></h1>
+                <!--<h1>Lorem ipsum dolor sit amet, <span>consectetur adipiscing elit. Etiam dolor</span></h1>-->
+                <p>&copy; <?php echo date("Y") ?>. Lorem ipsum dolor sit amet.</p>
             </div>
 
 		</div><!-- /container -->

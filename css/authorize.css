@@ -15,24 +15,24 @@ ul.authorize li {
 }
 
 ul.authorize li{
-    padding: 5px;
     text-decoration: none;
     color: #fff;
 }
 
 ul.authorize a {
 
-    padding-top: 10px;
-    height: 35px;
-    line-height: 35px;
+    padding: 18px 0 0 0;
+    /*height: 35px;
+    line-height: 35px;*/
+    height: 100%;
 
+    width: 90px;
 
     font-size: 75%;
     text-decoration: none;
     display: inline-block;
     box-sizing: border-box;
     color: #98aa96;
-
 }
 
 ul.authorize li{
@@ -41,5 +41,7 @@ ul.authorize li{
 }
 
 ul.authorize a:hover {
+
     color: #fff;
+    background: #313836;
 }
