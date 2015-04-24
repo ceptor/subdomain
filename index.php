@@ -5,7 +5,7 @@
 	</head>
 	<body>
 		<div class="container">
-            <div class="lemon">aaab</div>
+            <div class="lemon"></div>
 			<header>
 				<h1>Lorem ipsum dolor sit amet, <span>consectetur adipiscing elit. Etiam dolor</span></h1>
 
