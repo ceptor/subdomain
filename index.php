@@ -5,6 +5,7 @@
 	</head>
 	<body>
 		<div class="container">
+            <div class="lemon"></div>
 			<header>
 				<h1>Lorem ipsum dolor sit amet, <span>consectetur adipiscing elit. Etiam dolor</span></h1>
 
@@ -21,6 +22,13 @@
                     </form>
                 </div>
 			</header>
+
+            <ul class="header_2"><!-- Main navigation menu -->
+                <li class="first-item"><a href="#">ЕГЭ 2015</a></li>
+                <li><a class="active" href="#">ОГЭ 2015</a></li>
+                <li><a href="#">Поступление 2015</a></li>
+                <li class="last-item"><a href="#">Олимпиады</a></li>
+            </ul>
 
 			<div class="main clearfix">
 

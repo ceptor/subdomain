@@ -1,5 +1,6 @@
 @import url("/css/left-menu.css");
 @import url("/css/authorize.css");
+@import url("/css/header-menu.css");
 
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 body, html { font-size: 100%; padding: 0; margin: 0;}
@@ -12,17 +13,30 @@ body {
 	font-family: Arial, sans-serif;
 }
 
-.container {
-    /*width: 100%;*/
+.lemon {
+    float: left;
+    margin: 10px 32px;
+    /*width: 30px; height: 30px;
+    background: #05CC47;
+    border: 4px solid #F0D900;
+    border-radius: 21px 3px 21px 8px;*/
+
+    width: 0; height: 0;
+    border: 15px solid;
+    border-radius: 50%;
+    border-top-color: #5fac75;
+    border-bottom-color: #5fac75;
+    border-left-color: #E7E6E6;
+    border-right-color: #E7E6E6;
 }
 
 /* Header Style */
 .container > header {
-	/*margin: 30px;*/
-	padding: 5px;
-    height: 107px;
+	padding: 0;
+    margin: 0;
+    height: 50px;
     text-align: center;
-    background: #EEEEEE;
+    background: #475C4D;
 }
 
 .container > header h1 {
@@ -34,32 +48,16 @@ body {
 	font-weight: 300;
 }
 
-/* Main Content */
-.main {
-    margin: 0 auto;
-	width: 100%;
-}
-
 /* Left menu*/
-
-
-.main a:hover{
-    background-color: #fafafa;
-    border-bottom: none;
-    -webkit-transition: all .3s ease-out;
-    -moz-transition: all .3s ease-out;
-    -o-transition: all .3s ease-out;
-    transition: all .3s ease-out;
-}
-
 
 .column-left {
     background-color: #EEEEEE;
     /*color: #2673AB;
     text-decoration: none;*/
 	float: left;
-	width: 20%;
+	width: 16%;
 	position: relative;
+    border-right: 1px solid #a8baa7
 }
 
 /* Middle content*/
@@ -67,7 +65,7 @@ body {
     margin-top: 13px;
     background: green;
     float: left;
-    width: 50%;
+    width: 54%;
     padding: 0 2em;
     min-height: 300px;
     position: relative;

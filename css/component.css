@@ -11,9 +11,12 @@
 }
 
 .sb-search {
-    background: rosybrown;
+    /*background: rosybrown;*/
 	position: relative;
-	width: 0%;
+	width: 0;
+
+    margin: 10px 5px;
+
 	min-width: 30px;
 	height: 30px;
 	float: right;
@@ -26,7 +29,7 @@
 }
 
 .sb-search-input {
-    border-radius: 5px;
+    border-radius: 1px;
 	position: absolute;
 	top: 0;
 	right: 30px;
