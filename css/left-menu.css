@@ -1,0 +1,50 @@
+.category {
+    margin-top: 13px; /*do not remove!!! - this is also margin for video block*/
+    background: #E7E6E6;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 9px;
+}
+
+h3.category a {
+    text-decoration: none;
+    color: #2673AB;
+}
+
+ul {
+    padding: 0 20px 0;
+}
+
+.theme {
+    list-style-type: none;
+    margin: 0;
+}
+
+ul.theme a {
+    text-decoration: none;
+    color: #2673AB;
+    display: block;
+    padding: 5px 0 5px 5px;
+}
+
+ul.theme a:hover {
+    text-decoration: none;
+    color: #2673AB;
+    background-color: #fff;
+}
+
+ul.theme li {
+    border-bottom: 1px solid #ddd;
+}
+
+ul.theme li a{
+    border-bottom: 0;
+}
+
+.theme a:active {
+    outline: 0 none;
+    position: relative;
+    top: 1px;
+}
+

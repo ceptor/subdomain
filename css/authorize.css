@@ -1,0 +1,38 @@
+.authorize {
+    margin: 0;
+    padding: 1px;
+    display: inline;
+    position: relative;
+    background: transparent;
+    list-style-type: none;
+    text-align: center;
+    float: right;
+}
+
+ul.authorize li {
+    display: inline;
+}
+
+ul.authorize li{
+    text-decoration: none;
+    padding: 1px;
+    color: #fff;
+    background-color: #036;
+}
+
+ul.authorize a {
+    text-decoration: none;
+    padding: 1px;
+    color: #fff;
+    background-color: #036;
+}
+
+ul.authorize li{
+    color: #fff;
+    background-color: #369;
+}
+
+ul.authorize a:hover {
+    color: #fff;
+    background-color: #369;
+}
