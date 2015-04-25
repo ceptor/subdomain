@@ -1,0 +1,10 @@
+/* Right side*/
+.column-right {
+    margin-top: 13px;
+    border-left: 1px solid #a0a0a0;
+    float: left;
+    width: 30%;
+    padding: 0 2em;
+    min-height: 300px;
+    position: relative;
+}

@@ -8,7 +8,7 @@
             <!--<div class="lemon"></div>-->
             <img class="logo" src="img/edu.png">
 			<header>
-				<h1>Лучшие в России курсы онлайн образования. <span style="color: #fff">Бесплатно.</span></h1>
+				<h1>Лучшие в России курсы онлайн образования для поступающих. <span style="color: #fff">Бесплатно.</span></h1>
 
                 <ul class="authorize">
                     <li><a href="#">Регистрация</a></li>
@@ -38,11 +38,11 @@
 				</div>
 
 				<div class="column-middle">
-                    <?php include('include/fish.php');?>
+                    <?php include('include/middle-content.php');?>
 				</div>
 
                 <div class="column-right">
-                    <?php include('include/fish1.php');?>
+                    <?php include('include/right-col.php');?>
                 </div>
 
 			</div>
