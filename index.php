@@ -48,7 +48,6 @@
 			</div>
 
             <div class="footer">
-                <!--<h1>Lorem ipsum dolor sit amet, <span>consectetur adipiscing elit. Etiam dolor</span></h1>-->
                 <p>&copy; <?php echo date("Y") ?>. Lorem ipsum dolor sit amet.</p>
             </div>
 

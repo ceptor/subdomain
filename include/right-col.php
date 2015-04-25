@@ -1,5 +1,9 @@
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia turpis ut ornare efficitur. In commodo faucibus ex, non porttitor turpis fringilla non. Suspendisse elementum tincidunt auctor. Nunc molestie malesuada nulla in eleifend. Nunc quam turpis, convallis at felis nec, feugiat bibendum eros. Duis quis mattis sapien, id laoreet lectus. Sed posuere semper metus, et luctus tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris molestie lacus eu pulvinar finibus. Vestibulum lectus nisl, mollis in congue et, lobortis nec dui. Suspendisse dapibus ante sit amet condimentum cursus. Praesent a ipsum arcu.</p>
-
-<p>Nulla elementum erat sapien, vitae bibendum augue auctor ut. Pellentesque ante nisl, convallis a lorem lobortis, porttitor placerat elit. Duis congue metus a magna congue placerat. Maecenas sed cursus lacus. Donec ultrices ornare nisi vel aliquet. Curabitur nec laoreet velit. Nam ultrices elit in dui laoreet, quis venenatis arcu dapibus. Mauris sagittis sit amet odio eu pharetra.</p>
-
-<p>Nullam ligula justo, mattis a semper sit amet, pharetra vitae augue. Integer vulputate eros nec egestas aliquam. Ut sit amet arcu aliquam, auctor justo posuere, dictum nisl. Phasellus ac fermentum massa, in condimentum urna. Donec ut mauris tincidunt ante vestibulum sodales nec non nibh. Mauris scelerisque elit ut velit posuere hendrerit. Vestibulum eget blandit lorem.</p>
+<?php
+print"<table class='bordered' border=0>";
+echo "<tr><th>Key</th><th>Value</th></tr>";
+foreach ($_SERVER as $key=>$val )
+{
+    echo "<tr><td>".$key."</td><td class='wrp'>" .$val."</tr>";
+}
+print"</table>";
+?>
