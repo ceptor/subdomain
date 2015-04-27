@@ -1,8 +1,8 @@
-@import url("/css/left-menu.css");
-@import url("/css/authorize.css");
-@import url("/css/header-menu.css");
-@import url("/css/middle-col.css");
-@import url("/css/right-col.css");
+@import url("/resources/css/left-menu.css");
+@import url("/resources/css/authorize.css");
+@import url("/resources/css/header-menu.css");
+@import url("/resources/css/middle-col.css");
+@import url("/resources/css/right-col.css");
 
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 body, html {
