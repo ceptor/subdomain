@@ -1,3 +1,19 @@
+.login-page #login, .login-page #lost-password {
+    margin: 20px auto;
+    padding: 20px;
+    width: 460px;
+    background-color: #d8e4d8;
+    text-align: left;
+    display: block;
+    border-radius: 5px;
+    position: relative;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
 .login-page.bubbleview {
     text-align: center;
     background: #ccd9c8;
@@ -131,4 +147,54 @@ td, th {
     background: #f7f7f7;
     border-radius: 3px;
     box-shadow: 0 1px rgba(255,255,255,0.4),0 1px 4px #bdbdbd inset;
+}
+
+.login-page #login label.remember-label {
+    font-weight: normal;
+    font-size: 11px;
+}
+
+.smbutton.smbutton-blue, .smbutton.smbutton-blue.disabledbutton:hover, .smbutton.smbutton-blue.disabledbutton:active, body.stash-page .smbutton.smbutton-blue {
+    border-color: #1d4253;
+    background: #0088b5;
+    background: -webkit-linear-gradient(top, #0088b5, #005d7c);
+    background: -moz-linear-gradient(top, #0088b5, #005d7c);
+    background: linear-gradient(top, #0088b5, #005d7c);
+    color: #fffff9;
+    text-decoration: none;
+}
+
+.smbutton.smbutton-size-default {
+    padding: 6px 10px;
+}
+
+.smbutton-shadow {
+    box-shadow: 0 1px 0 #f1f5ef;
+}
+
+.smbutton, .smbutton>span {
+    border-radius: 5px;
+}
+
+.smbutton {
+    margin: 8px 0;
+    border: 1px solid #93a98f;
+    display: block;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    min-width: 85px;
+    background: #d2dfc5;
+    background: -webkit-linear-gradient(top, #d2dfc5, #bdd1b4);
+    background: -moz-linear-gradient(top, #d2dfc5, #bdd1b4);
+    background: linear-gradient(top, #d2dfc5, #bdd1b4);
+    color: #121516;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+.login-page a.small-blue {
+    font-size: 11px;
+    color: #326f84;
+    text-decoration: none;
 }
