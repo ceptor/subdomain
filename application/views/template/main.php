@@ -16,7 +16,7 @@
                 </ul>
 
                 <div id="sb-search" class="sb-search">
-                    <form>
+                    <form action="/search" method="POST">
                         <input class="sb-search-input" placeholder="Найти на сайте..." type="search" value="" name="search" id="search">
                         <input class="sb-search-submit" type="submit" value="">
                         <span class="sb-icon-search"></span>
@@ -25,7 +25,7 @@
 			</header>
 
             <div class="loginin">
-                <form>
+                <form action="/login" method="POST">
                     Логин<br/>
                     <input class=loginin-login" type="text" value="" name="login" id="loginin"><br/><br/>
                     Пароль<br/>

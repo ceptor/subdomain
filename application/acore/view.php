@@ -26,8 +26,8 @@ class View
 		внутри которого будет встраиваться вид
 		для отображения контента конкретной страницы.
 		*/
-		//include 'application/views/'.$template_view;
-		include 'application/views/template/main.php';
+		include 'application/views/'.$template_view;
+		//include 'application/views/template/main.php';
 	}
 }
 ?>

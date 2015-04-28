@@ -1,0 +1,134 @@
+.login-page.bubbleview {
+    text-align: center;
+    background: #ccd9c8;
+}
+
+div.h, div.hh, * html div.ieh {
+    position: relative;
+}
+
+.bubbleview {
+    padding: 7px 15px;
+    background: #d6ded4;
+}
+
+div {
+    display: block;
+}
+
+.login-page div.c.pp {
+    padding-top: 40px;
+}
+
+.pp {
+    padding: 8px;
+}
+
+.c {
+    text-align: center;
+}
+
+.login-page .error {
+    background: url(/resources/img/fail_bkgrd_login.png?1) #e1d7d3 repeat-x;
+    border: 1px #b73e62 solid;
+}
+
+.login-page .error, .login-page .notice {
+    width: 500px;
+    text-align: left;
+    border-radius: 5px;
+    position: relative;
+    margin: 0 auto 10px;
+    min-height: 48px;
+}
+
+.login-page .error span.error-icon, .login-page .notice span.notice-icon {
+    display: block;
+    float: left;
+    width: 28px;
+    height: 26px;
+    margin: 10px;
+}
+
+.login-page .error-icon {
+    background-image: url(/resources/img/successfail_login.png?1);
+    background-position: -40px 0;
+}
+
+.login-page .error .error-message {
+    color: #b73e62;
+}
+
+.login-page .error .error-message, .login-page .notice .notice-message {
+    display: block;
+    padding: 15px 10px 15px 34px;
+    font: 15px 'Trebuchet MS',Trebuchet,sans-serif;
+}
+
+.login-page #login, .login-page #lost-password {
+    margin: 20px auto;
+    padding: 20px;
+    width: 460px;
+    background-color: #d8e4d8;
+    text-align: left;
+    display: block;
+    border-radius: 5px;
+    position: relative;
+}
+
+table {
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    border-spacing: 5px;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.login-page td.label-td {
+    text-align: right;
+    padding-right: 10px;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.login-page #login label, .login-page #lost-password label {
+    font-family: Verdana,Geneva,sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #2c3635;
+}
+
+.login-page input.text {
+    width: 220px;
+}
+
+.login-page input.text {
+    font-family: Verdana,Geneva,sans-serif;
+    color: #515c5a;
+    font-size: 90%;
+    letter-spacing: -0.25px;
+    padding: 7px 8px;
+    border: 1px solid #8c9b8c;
+    background: #f7f7f7;
+    border-radius: 3px;
+    box-shadow: 0 1px rgba(255,255,255,0.4),0 1px 4px #bdbdbd inset;
+}

@@ -45,3 +45,15 @@ ul.authorize a:hover {
     color: #fff;
     background: #313836;
 }
+
+.auth_error {
+    background: url(/minish/login/fail_bkgrd_login.png?1) #e1d7d3 repeat-x;
+    border: 1px #b73e62 solid;
+
+    width: 500px;
+    text-align: left;
+    border-radius: 5px;
+    position: relative;
+    margin: 0 auto 10px;
+    min-height: 48px;
+}

@@ -15,6 +15,8 @@ class Route {
 
         $routes = explode('/', $_SERVER['REQUEST_URI']);
 
+
+
         // получаем имя контроллера
         if (!empty($routes[1])) {
             $controller_name = $routes[1];
@@ -24,6 +26,8 @@ class Route {
         if (!empty($routes[2])) {
             $action_name = $routes[2];
         }
+
+        /*echo '<div style="margin: 0; padding: 0; border: 2px solid #FFA500">$controller_name: <b>' . $controller_name . '</b> $action_name: <b>' . $action_name . '</b></div>';*/
 
         // добавляем префиксы
         $model_name = 'Model_' . $controller_name;
